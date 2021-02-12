@@ -1,0 +1,23 @@
+Source: adaptation-fxtec-pro1
+Maintainer: Giuseppe `r3vn` Corti
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/hybris-mobian/adaptation-fxtec-pro1
+Vcs-Git: https://github.com/hybris-mobian-releng/adaptation-fxtec-pro1.git
+
+Package: adaptation-fxtec-pro1
+Architecture: all
+Depends: ${misc:Depends},
+         linux-android-fxtec-pro1,
+         adaptation-hybris-api28-phone-dual-sim,
+         adaptation-fxtec-pro1-configs,
+Description: adapatation-fxtec-pro1 - meta
+ f(x)tec Pro1 api28 adaptation metapackage
+
+Package: adaptation-fxtec-pro1-configs
+Architecture: all
+Depends: ${misc:Depends},
+         adaptation-fxtec-pro1 (= ${binary:Version}),
+Description: f(x)tec Pro1's specific adaptation configs
