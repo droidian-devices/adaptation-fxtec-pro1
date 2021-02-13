@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/hybris-mobian-releng/adaptation-fxtec-pro1.git
 Package: adaptation-fxtec-pro1
 Architecture: all
 Depends: ${misc:Depends},
-         linux-android-fxtec-pro1,
+         linux-bootimage-fxtec-pro1,
          adaptation-hybris-api28-phone-dual-sim,
          adaptation-fxtec-pro1-configs,
 Description: adapatation-fxtec-pro1 - meta
