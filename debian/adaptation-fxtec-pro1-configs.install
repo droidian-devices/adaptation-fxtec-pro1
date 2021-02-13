@@ -1,4 +1,1 @@
-repositories/* /etc/apt/sources.list.d
-udev/* /etc/udev/rules.d
-modules-load/* /etc/modules-load.d
-gst-droid/* /etc/gst-droid
+etc/* /etc

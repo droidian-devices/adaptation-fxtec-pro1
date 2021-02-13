@@ -1,4 +1,5 @@
 /etc/apt/sources.list.d
+/etc/apt/preferences.d
 /etc/udev/rules.d
 /etc/modules-load.d
 /etc/gst-droid
