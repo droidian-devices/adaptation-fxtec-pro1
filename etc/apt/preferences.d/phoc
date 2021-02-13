@@ -1,3 +1,0 @@
-Package: phoc
-Pin: release l=hybris-mobian\ (hybris-mobian-phoc-bullseye-slider-detection\ channel)
-Pin-Priority: 1003

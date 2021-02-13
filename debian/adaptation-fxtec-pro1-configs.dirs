@@ -3,3 +3,5 @@
 /etc/udev/rules.d
 /etc/modules-load.d
 /etc/gst-droid
+/usr/lib/adaptation-fxtec-pro1/preferences
+/usr/lib/adaptation-fxtec-pro1/sources

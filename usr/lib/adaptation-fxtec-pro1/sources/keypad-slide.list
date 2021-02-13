@@ -1,3 +1,4 @@
 deb http://hybris-mobian-wlroots.repo.hybris-mobian.org/bullseye-keypad-slide/ bullseye main
 deb http://hybris-mobian-phosh.repo.hybris-mobian.org/bullseye-upgrade-0-5-0-slider/ bullseye main
 deb http://hybris-mobian-phoc.repo.hybris-mobian.org/bullseye-slider-detection/ bullseye main
+deb http://hybris-mobian-libinput.repo.hybris-mobian.org/bullseye-keypad-slide/ bullseye main

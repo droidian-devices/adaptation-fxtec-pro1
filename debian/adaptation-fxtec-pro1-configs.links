@@ -1,0 +1,2 @@
+/usr/lib/adaptation-fxtec-pro1/sources/keypad-slide.list /etc/apt/sources.list.d/adaptation-fxtec-pro1-keypad-slide.list
+/usr/lib/adaptation-fxtec-pro1/preferences/30-keypad-slide /etc/apt/preferences.d/30-keypad-slide
