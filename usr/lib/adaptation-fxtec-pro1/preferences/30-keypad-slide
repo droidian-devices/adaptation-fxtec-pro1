@@ -2,6 +2,10 @@ Package: libinput-bin
 Pin: release l=hybris-mobian\ (hybris-mobian-libinput-bullseye-keypad-slide\ channel)
 Pin-Priority: 1003
 
+Package: libinput10
+Pin: release l=hybris-mobian (hybris-mobian-libinput-bullseye-keypad-slide channel)
+Pin-Priority: 1003
+
 Package: libwlroots6
 Pin: release l=hybris-mobian\ (hybris-mobian-wlroots-bullseye-keypad-slide\ channel)
 Pin-Priority: 1003
@@ -13,3 +17,4 @@ Pin-Priority: 1003
 Package: phosh
 Pin: release l=hybris-mobian\ (hybris-mobian-phosh-bullseye-upgrade-0-5-0-slider\ channel)
 Pin-Priority: 1003
+
