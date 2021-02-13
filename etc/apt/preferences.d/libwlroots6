@@ -1,3 +1,3 @@
 Package: libwlroots6
-Pin: release l=hybris-mobian (hybris-mobian-wlroots-bullseye-keypad-slide channel)
+Pin: release l=hybris-mobian\ (hybris-mobian-wlroots-bullseye-keypad-slide\ channel)
 Pin-Priority: 1003
