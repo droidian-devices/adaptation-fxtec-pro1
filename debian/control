@@ -13,7 +13,6 @@ Depends: ${misc:Depends},
          linux-bootimage-fxtec-pro1,
          adaptation-hybris-api28-phone-dual-sim,
          adaptation-fxtec-pro1-configs,
-         timekeeper,
 Description: adapatation-fxtec-pro1 - meta
  f(x)tec Pro1 api28 adaptation metapackage
 
