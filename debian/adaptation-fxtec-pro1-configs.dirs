@@ -3,5 +3,6 @@
 /etc/udev/rules.d
 /etc/modules-load.d
 /etc/gst-droid
+/etc/package-sideload-create.d
 /usr/lib/adaptation-fxtec-pro1/preferences
 /usr/lib/adaptation-fxtec-pro1/sources
