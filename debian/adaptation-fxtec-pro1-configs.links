@@ -1,4 +1,7 @@
 /usr/lib/adaptation-fxtec-pro1/sources.list.d/keypad-slide.list /etc/apt/sources.list.d/adaptation-fxtec-pro1-keypad-slide.list
 /usr/lib/adaptation-fxtec-pro1/preferences.d/30-keypad-slide /etc/apt/preferences.d/30-keypad-slide
 /usr/lib/adaptation-fxtec-pro1/package-sideload-create.d/keypad-slide /etc/package-sideload-create.d/keypad-slide
+/usr/lib/adaptation-fxtec-pro1/sources.list.d/feedbackd.list /etc/apt/sources.list.d/adaptation-fxtec-pro1-feedbackd.list
+/usr/lib/adaptation-fxtec-pro1/preferences.d/30-feedbackd /etc/apt/preferences.d/30-feedbackd
+/usr/lib/adaptation-fxtec-pro1/package-sideload-create.d/feedbackd /etc/package-sideload-create.d/feedbackd
 /usr/lib/adaptation-fxtec-pro1/system-overlay /usr/lib/droid-system-overlay
