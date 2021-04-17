@@ -1,0 +1,1 @@
+rm_conffile /etc/systemd/user/pulseaudio.service.d/20-sleep.conf
