@@ -1,3 +1,0 @@
-Package: feedbackd-common feedbackd gir1.2-lfb-0.0 libfeedback-0.0-0 libfeedback-dev
-Pin: release l=hybris-mobian\ (droidian-feedbackd-bullseye-libhardware\ channel)
-Pin-Priority: 1003
