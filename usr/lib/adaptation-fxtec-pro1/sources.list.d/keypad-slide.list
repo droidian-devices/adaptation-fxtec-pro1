@@ -1,4 +1,4 @@
-#deb http://hybris-mobian-wlroots.repo.hybris-mobian.org/bullseye-keypad-slide/ bullseye main
-#deb http://hybris-mobian-phosh.repo.hybris-mobian.org/bullseye-upgrade-0-5-0-slider/ bullseye main
-#deb http://hybris-mobian-phoc.repo.hybris-mobian.org/bullseye-slider-detection/ bullseye main
 deb http://droidian-libinput.repo.droidian.org/bullseye-keypad-slide/ bullseye main
+deb http://droidian-wlroots.repo.droidian.org/bullseye-refactor-keypad-slide/ bullseye main
+deb http://droidian-phoc.repo.droidian.org/bullseye-forward-switch-events/ bullseye main
+deb http://droidian-phosh.repo.droidian.org/bullseye-keypad-slide-lights/ bullseye main

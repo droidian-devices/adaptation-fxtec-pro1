@@ -2,18 +2,18 @@ Package: libinput-bin
 Pin: release l=hybris-mobian\ (droidian-libinput-bullseye-keypad-slide\ channel)
 Pin-Priority: 1003
 
-Package: libinput10
+Package: libinput10 libinput10-dbgsym
 Pin: release l=hybris-mobian\ (droidian-libinput-bullseye-keypad-slide\ channel)
 Pin-Priority: 1003
 
-#Package: libwlroots6
-#Pin: release l=hybris-mobian\ (hybris-mobian-wlroots-bullseye-keypad-slide\ channel)
-#Pin-Priority: 1003
+Package: libwlroots7c libwlroots7c-dbgsym
+Pin: release l=hybris-mobian\ (droidian-wlroots-bullseye-refactor-keypad-slide\ channel)
+Pin-Priority: 1003
 
-#Package: phoc
-#Pin: release l=hybris-mobian\ (hybris-mobian-phoc-bullseye-slider-detection\ channel)
-#Pin-Priority: 1003
+Package: phoc phoc-dbgsym
+Pin: release l=hybris-mobian\ (droidian-phoc-bullseye-forward-switch-events\ channel)
+Pin-Priority: 1003
 
-#Package: phosh
-#Pin: release l=hybris-mobian\ (hybris-mobian-phosh-bullseye-upgrade-0-5-0-slider\ channel)
-#Pin-Priority: 1003
+Package: phosh phosh-mobile-tweaks phosh-dbgsym
+Pin: release l=hybris-mobian\ (droidian-phosh-bullseye-keypad-slide-lights\ channel)
+Pin-Priority: 1003
