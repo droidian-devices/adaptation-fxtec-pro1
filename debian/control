@@ -20,5 +20,4 @@ Description: adapatation-fxtec-pro1 - meta
 Package: adaptation-fxtec-pro1-configs
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-fxtec-pro1 (= ${binary:Version}),
 Description: f(x)tec Pro1's specific adaptation configs
