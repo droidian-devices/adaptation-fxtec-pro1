@@ -19,5 +19,6 @@ Description: adapatation-fxtec-pro1 - meta
 
 Package: adaptation-fxtec-pro1-configs
 Architecture: all
+Pre-Depends: droidian-encryption-service
 Depends: ${misc:Depends},
 Description: f(x)tec Pro1's specific adaptation configs

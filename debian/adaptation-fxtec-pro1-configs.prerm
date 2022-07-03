@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+remove() {
+	# Remove droidian-encryption-service diversion
+	if [ -e "/usr/lib/adaptation-fxtec-pro1/diversions/droidian-encryption-service.conf.orig" ]; then
+		rm -f "/etc/droidian-encryption-service.conf"
+		dpkg-divert --rename --package adaptation-fxtec-pro1-configs --divert "/usr/lib/adaptation-fxtec-pro1/diversions/droidian-encryption-service.conf.orig" --remove "/etc/droidian-encryption-service.conf"
+	fi
+
+}
+
+case "$1" in
+	"remove")
+		remove
+		;;
+esac

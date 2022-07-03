@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+configure() {
+	# Divert droidian-encryption-service configuration
+	if ! [ -e "/usr/lib/adaptation-fxtec-pro1/diversions/droidian-encryption-service.conf.orig" ]; then
+		dpkg-divert --rename --package adaptation-fxtec-pro1-configs --divert "/usr/lib/adaptation-fxtec-pro1/diversions/droidian-encryption-service.conf.orig" --add "/etc/droidian-encryption-service.conf"
+		ln -s "/usr/lib/adaptation-fxtec-pro1/diversions/droidian-encryption-service.conf" "/etc/droidian-encryption-service.conf"
+	fi
+
+}
+
+case "$1" in
+	"configure")
+		configure
+		;;
+esac
