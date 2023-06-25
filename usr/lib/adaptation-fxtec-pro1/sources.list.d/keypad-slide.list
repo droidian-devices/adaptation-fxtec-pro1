@@ -1,4 +1,3 @@
-deb http://droidian-libinput.repo.droidian.org/bookworm-keypad-slide/ bookworm main
-deb http://droidian-wlroots.repo.droidian.org/bookworm-refactor-keypad-slide/ bookworm main
-deb http://droidian-phoc.repo.droidian.org/bookworm-forward-switch-events/ bookworm main
-deb http://droidian-phosh.repo.droidian.org/bookworm-keypad-slide-lights/ bookworm main
+deb http://droidian-libinput.repo.droidian.org/trixie-keypad-slide/ trixie main
+deb http://droidian-phoc.repo.droidian.org/trixie-forward-switch-events/ trixie main
+deb http://droidian-phosh.repo.droidian.org/trixie-keypad-slide-lights/ trixie main
