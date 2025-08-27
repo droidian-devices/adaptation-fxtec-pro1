@@ -15,6 +15,7 @@ Depends: ${misc:Depends},
          linux-bootimage-fxtec-pro1,
          adaptation-hybris-api28-phone,
          adaptation-fxtec-pro1-configs,
+         droidian-quirks-firefox-gpu,
 Description: adapatation-fxtec-pro1 - meta
  f(x)tec Pro1 api28 adaptation metapackage
 
